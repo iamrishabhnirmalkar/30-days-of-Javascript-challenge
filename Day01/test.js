@@ -55,3 +55,41 @@ const Task06 = "hello";
 console.log(Task06); // Hello
 Task06 = "what";
 console.log(Task06); //TypeError: Assignment to constant variable.
+
+// Feature Request
+
+// 1. Variable Types Console Log: Write a script that declares variables of different data types and logs both the value and type of each variable to the console.
+
+let stringvar = "This is string";
+let numvar = 255;
+let booleanvar = false;
+let undefinedvar;
+let nullvar = null;
+let symbolvar = Symbol("unique");
+let bigvar = BigInt(213246546546546579878676546546541321321);
+let objectvar = {
+  name: "Rishabh",
+  age: 24,
+};
+let arryvar = ["hello", "my", "is", "rishu"];
+
+console.log("stringvar", stringvar, "-", typeof stringvar);
+console.log("numvar", numvar, "-", typeof numvar);
+console.log("booleanvar", booleanvar, "-", typeof booleanvar);
+console.log("undefinedvar", undefinedvar, "-", typeof undefinedvar);
+console.log("nullvar", nullvar, "-", typeof nullvar);
+console.log("symbolvar", symbolvar, "-", typeof symbolvar);
+console.log("stringvar", stringvar, "-", typeof stringvar);
+console.log("bigvar", bigvar, "-", typeof bigvar);
+console.log("objectvar", objectvar, "-", typeof objectvar);
+console.log("arryvar", arryvar, "-", typeof arryvar);
+
+// 2. Reassignment Demo: Create a script that demonstrates the difference in behavior between let and const when it comes to reassignment.
+
+let initVar = "Reassignement Demo";
+initVar = "Changes";
+console.log(initVar); //Changes
+
+const initconstvar = "Const Reassigment Demo";
+initconstvar = "Demo Changes";
+console.log(initconstvar); //TypeError: Assignment to constant variable.
