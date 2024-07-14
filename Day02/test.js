@@ -74,10 +74,47 @@ console.log("compare02", strDt === NumDt); //false because they check data type 
 
 // Task 11: Write a program that uses the && operator to combine two conditions and log the result to the console.
 
+let x = true;
+let y = false;
+console.log("console log of x && y", x && y); //fasle
+
 // Task 12: Write a program that uses the || operator to combine two conditions and log the result to the console.
 
-// Task 13: Write a program that uses the ! operator to negate a condition and log the result to the console.
+console.log("console log of x || y", x || y); //true
 
-//======== Activity 01 {Ternary Operator} =========
+// Task 13: Write a program that uses the ! operator to negate a condition and log the result to the console.
+console.log("console log of !x ", !x); //fasle
+
+//======== Activity 05 {Ternary Operator} =========
 
 // Task 14: Write a program that uses the ternary operator to check if a number is positive or negative and log the result to the console.
+let num = "";
+console.log(num ? "positive" : "negative");
+
+//====================== Feature Request====================
+
+// 1. Arithmetic Operations Script: Write a script that performs basic arithmetic operations (addition, subtraction, multiplication, division, remainder) on two numbers and logs the results.
+
+let anum = 10;
+let bnum = 5;
+console.log("Addition", "-", "a+b", anum + bnum);
+console.log("Subtraction", "-", "a-b", anum - bnum);
+console.log("Multiplications", "-", "a*b", anum * bnum);
+console.log("Division", "-", "a/b", anum / bnum);
+console.log("Remainder", "-", "a%b", anum % bnum);
+
+// 2. Comparison and Logical Operators Script: Create a script that compares two numbers using different comparison operators and combines conditions using logical operators, logging the results.
+
+let cstr = "10";
+let dbol = true;
+
+console.log("Comparison", "-", "a==c", anum == cstr);
+console.log("Comparison", "-", "a===c", anum === cstr);
+console.log("Comparison", "-", "a>b", anum > bnum);
+console.log("Comparison", "-", "a<b", anum < bnum);
+console.log("Comparison", "-", "a<=b", anum <= bnum);
+console.log("Comparison", "-", "a>=b", anum >= bnum);
+
+//  3. Ternary Operator Script: Write a script that uses the ternary operator to determine if a number is positive or negative and logs the result.
+let checknum = 0;
+console.log(checknum >= 0 ? "positive" : "negative");
