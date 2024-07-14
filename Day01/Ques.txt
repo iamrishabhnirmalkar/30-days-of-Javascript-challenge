@@ -1,0 +1,2 @@
+Diffrent Between arry and objects 
+can i assign arry in objects or can i assign object in arry so what the diffrent between both of them??
