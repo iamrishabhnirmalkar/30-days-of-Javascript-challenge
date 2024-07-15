@@ -7,3 +7,7 @@ Variable and Data Types
 ## Day 02
 
 Operations
+
+## Day 03
+
+Control Structures
