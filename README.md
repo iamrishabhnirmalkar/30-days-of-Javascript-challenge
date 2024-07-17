@@ -15,3 +15,7 @@ Control Structures
 ## Day 04
 
 Loop
+
+## Day 05
+
+Functions
