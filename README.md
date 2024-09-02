@@ -31,3 +31,11 @@
 - Activity 3: Do...While Loop
 - Activity 4: Nested Loops
 - Activity 5: Loop Control Statements
+
+## Day 05 Control Structures
+
+- Activity 1: Function Declaration
+- Activity 2: Function Expression
+- Activity 3: Arrow Functions
+- Activity 4: Function Parameters and Default Values
+- Activity 5: Higher-Order Functions
