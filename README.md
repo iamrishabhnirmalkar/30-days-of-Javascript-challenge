@@ -39,3 +39,10 @@
 - Activity 3: Arrow Functions
 - Activity 4: Function Parameters and Default Values
 - Activity 5: Higher-Order Functions
+
+## Day 06 Arrays
+
+- Activity 1: Array Creation and Access
+- Activity 2: Array Methods (Basic)
+- Activity 3: Array Methods (Intermediate)
+- Activity 4: Array Iteration
